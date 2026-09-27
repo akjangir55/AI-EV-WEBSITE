@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>EcoDrive EV | Charging</title>
+
+    <meta name="description"
+          content="Explore EcoDrive EV home and fast charging.">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ================= NAVIGATION ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="index.html" class="brand">
+            <span class="brand-icon">⚡</span>
+            Eco<span>Drive</span>
+        </a>
+
+
+        <button class="menu-toggle"
+                id="menuToggle">
+            ☰
+        </button>
+
+
+        <nav class="main-nav" id="mainNav">
+
+            <div class="nav-dropdown">
+
+                <a href="index.html" class="nav-link">
+                    Home <span>⌄</span>
+                </a>
+
+                <div class="dropdown-menu">
+
+                    <a href="index.html#overview">
+                        EV Overview
+                    </a>
+
+                    <a href="index.html#why-ecodrive">
+                        Why EcoDrive
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="nav-dropdown">
+
+                <a href="features.html" class="nav-link">
+                    Features <span>⌄</span>
+                </a>
+
+                <div class="dropdown-menu">
+
+                    <a href="features.html#performance">
+                        Performance
+                    </a>
+
+                    <a href="features.html#smart-tech">
+                        Smart Technology
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="nav-dropdown">
+
+                <a href="charging.html" class="nav-link">
+                    Charging <span>⌄</span>
+                </a>
+
+                <div class="dropdown-menu">
+
+                    <a href="#home-charging">
+                        Home Charging
+                    </a>
+
+                    <a href="#fast-charging">
+                        Fast Charging
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="nav-dropdown">
+
+                <a href="contact.html" class="nav-link">
+                    Contact <span>⌄</span>
+                </a>
+
+                <div class="dropdown-menu">
+
+                    <a href="contact.html#test-drive">
+                        Book a Test Drive
+                    </a>
+
+                    <a href="contact.html#support">
+                        Customer Support
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <button class="nav-cta" data-open-chat>
+            Agent Support
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="page-hero">
+
+    <div class="page-hero-content reveal">
+
+        <div class="cyber-label">
+            ENERGY ECOSYSTEM
+        </div>
+
+        <h1>
+            Power your journey
+            <span>your way.</span>
+        </h1>
+
+        <p>
+            Explore the EcoDrive charging concept from
+            convenient home charging to rapid charging.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= HOME CHARGING ================= -->
+
+<section class="section"
+         id="home-charging">
+
+    <div class="charging-feature">
+
+        <div class="charging-visual-large reveal">
+
+            <div class="charger-unit">
+
+                <div class="charger-screen">
+                    <span>ECODRIVE</span>
+                    <strong>11.0 kW</strong>
+                    <small>HOME CHARGE</small>
+                </div>
+
+                <div class="charger-light"></div>
+
+                <div class="charging-cable"></div>
+
+            </div>
+
+        </div>
+
+
+        <div class="charging-info reveal">
+
+            <div class="cyber-label">
+                HOME CHARGING
+            </div>
+
+            <h2>
+                Wake up
+                <span>fully charged.</span>
+            </h2>
+
+            <p>
+                The EcoDrive concept supports an 11 kW home
+                charging experience designed for convenient
+                overnight charging.
+            </p>
+
+
+            <div class="spec-list">
+
+                <div>
+                    <strong>11 kW</strong>
+                    <span>Home charging</span>
+                </div>
+
+                <div>
+                    <strong>Smart</strong>
+                    <span>Energy monitoring</span>
+                </div>
+
+                <div>
+                    <strong>24/7</strong>
+                    <span>Connected status</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FAST CHARGING ================= -->
+
+<section class="section cyber-section"
+         id="fast-charging">
+
+    <div class="section-heading reveal">
+
+        <div class="cyber-label">
+            FAST CHARGING
+        </div>
+
+        <h2>
+            Less waiting.
+            <span>More exploring.</span>
+        </h2>
+
+        <p>
+            EcoDrive's fictional fast-charging concept
+            illustrates how modern EV charging can support
+            longer journeys.
+        </p>
+
+    </div>
+
+
+    <div class="charging-dashboard reveal">
+
+        <div class="charge-progress">
+
+            <div class="progress-header">
+
+                <span>
+                    BATTERY STATUS
+                </span>
+
+                <strong id="batteryValue">
+                    80%
+                </strong>
+
+            </div>
+
+
+            <div class="progress-track">
+
+                <div class="progress-fill"
+                     id="progressFill">
+                </div>
+
+            </div>
+
+
+            <div class="charge-controls">
+
+                <button id="chargeButton"
+                        class="cyber-button primary-button">
+
+                    Simulate Charging
+
+                </button>
+
+                <span id="chargeStatus">
+                    READY
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="charging-data">
+
+            <div>
+                <span>EST. RANGE</span>
+                <strong>520 KM</strong>
+            </div>
+
+            <div>
+                <span>FAST CHARGE</span>
+                <strong>30 MIN</strong>
+            </div>
+
+            <div>
+                <span>CHARGE TYPE</span>
+                <strong>DC FAST</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CHARGING STEPS ================= -->
+
+<section class="section">
+
+    <div class="section-heading reveal">
+
+        <div class="cyber-label">
+            SIMPLE PROCESS
+        </div>
+
+        <h2>
+            Charge in
+            <span>three steps.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="steps-grid">
+
+        <article class="step-card reveal">
+
+            <div class="step-number">
+                01
+            </div>
+
+            <h3>Connect</h3>
+
+            <p>
+                Connect the charging cable to the vehicle.
+            </p>
+
+        </article>
+
+
+        <article class="step-card reveal">
+
+            <div class="step-number">
+                02
+            </div>
+
+            <h3>Monitor</h3>
+
+            <p>
+                Monitor charging status through the
+                digital interface.
+            </p>
+
+        </article>
+
+
+        <article class="step-card reveal">
+
+            <div class="step-number">
+                03
+            </div>
+
+            <h3>Drive</h3>
+
+            <p>
+                Disconnect and continue your journey.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div>
+
+            <a href="index.html" class="brand">
+                <span class="brand-icon">⚡</span>
+                Eco<span>Drive</span>
+            </a>
+
+            <p>
+                Electric mobility for a smarter tomorrow.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="charging.html">Charging</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+
+        <div class="footer-note">
+
+            <span>FICTIONAL EDUCATIONAL CONCEPT</span>
+
+            <small>
+                © 2026 EcoDrive EV
+            </small>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- CHATBOT -->
+
+<div class="chatbot" id="chatbot">
+
+    <div class="chat-header">
+
+        <div>
+            <strong>EcoDrive Agent</strong>
+            <span class="online-dot"></span>
+            <small>Online</small>
+        </div>
+
+        <button id="closeChat">×</button>
+
+    </div>
+
+
+    <div class="chat-messages"
+         id="chatMessages">
+
+        <div class="bot-message">
+            Welcome to EcoDrive Agent Support!
+            How may I help you?
+        </div>
+
+    </div>
+
+
+    <div class="quick-actions">
+
+        <button data-question="Tell me about EcoDrive">
+            EcoDrive
+        </button>
+
+        <button data-question="What are the features?">
+            Features
+        </button>
+
+        <button data-question="Tell me about charging">
+            Charging
+        </button>
+
+        <button data-question="How can I book a test drive?">
+            Test Drive
+        </button>
+
+    </div>
+
+
+    <form class="chat-form"
+          id="chatForm">
+
+        <input type="text"
+               id="chatInput"
+               placeholder="Ask EcoDrive Agent..."
+               required>
+
+        <button type="submit">
+            ➤
+        </button>
+
+    </form>
+
+</div>
+
+
+<button class="chat-launcher"
+        id="chatLauncher">
+
+    <span>⚡</span>
+    <small>Agent</small>
+
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
