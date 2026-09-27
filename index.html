@@ -1,257 +1,484 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>EcoDrive EV | Drive the Future</title>
-  <meta name="description" content="EcoDrive EV — a fictional electric vehicle built for the future.">
+    <title>EcoDrive EV | Futuristic Electric Mobility</title>
 
-  <link rel="stylesheet" href="style.css">
+    <meta name="description"
+          content="EcoDrive EV - a fictional futuristic electric vehicle and smart mobility concept.">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- Navigation -->
-  <header class="navbar">
-    <div class="container nav-container">
-      <a href="#" class="logo">Eco<span>Drive</span></a>
+<!-- ================= NAVIGATION ================= -->
 
-      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
-        ☰
-      </button>
+<header class="navbar">
 
-      <nav id="navMenu">
-        <a href="#home">Home</a>
-        <a href="#features">Features</a>
-        <a href="#charging">Charging</a>
-        <a href="#test-drive">Test Drive</a>
-      </nav>
+    <div class="nav-container">
+
+        <a href="index.html" class="brand">
+            <span class="brand-icon">⚡</span>
+            Eco<span>Drive</span>
+        </a>
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation">
+            ☰
+        </button>
+
+        <nav class="main-nav" id="mainNav">
+
+            <!-- HOME -->
+            <div class="nav-dropdown">
+
+                <a href="index.html" class="nav-link">
+                    Home <span>⌄</span>
+                </a>
+
+                <div class="dropdown-menu">
+
+                    <a href="index.html#overview">
+                        EV Overview
+                    </a>
+
+                    <a href="index.html#why-ecodrive">
+                        Why EcoDrive
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- FEATURES -->
+            <div class="nav-dropdown">
+
+                <a href="features.html" class="nav-link">
+                    Features <span>⌄</span>
+                </a>
+
+                <div class="dropdown-menu">
+
+                    <a href="features.html#performance">
+                        Performance
+                    </a>
+
+                    <a href="features.html#smart-tech">
+                        Smart Technology
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CHARGING -->
+            <div class="nav-dropdown">
+
+                <a href="charging.html" class="nav-link">
+                    Charging <span>⌄</span>
+                </a>
+
+                <div class="dropdown-menu">
+
+                    <a href="charging.html#home-charging">
+                        Home Charging
+                    </a>
+
+                    <a href="charging.html#fast-charging">
+                        Fast Charging
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT -->
+            <div class="nav-dropdown">
+
+                <a href="contact.html" class="nav-link">
+                    Contact <span>⌄</span>
+                </a>
+
+                <div class="dropdown-menu">
+
+                    <a href="contact.html#test-drive">
+                        Book a Test Drive
+                    </a>
+
+                    <a href="contact.html#support">
+                        Customer Support
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <button class="nav-cta" data-open-chat>
+            Agent Support
+        </button>
+
     </div>
-  </header>
+
+</header>
 
 
-  <!-- Hero Section -->
-  <main>
+<!-- ================= HERO ================= -->
 
-    <section class="hero" id="home">
-      <div class="container hero-content">
+<main>
 
-        <div class="hero-text">
-          <p class="eyebrow">THE NEXT GENERATION OF ELECTRIC</p>
+<section class="hero" id="overview">
 
-          <h1>
-            Drive the
-            <span>Future.</span>
-          </h1>
+    <div class="hero-grid">
 
-          <p class="hero-description">
-            Meet EcoDrive EV — a smart, powerful and sustainable electric
-            vehicle designed for modern journeys.
-          </p>
+        <div class="hero-content reveal">
 
-          <div class="hero-buttons">
-            <a href="#test-drive" class="btn btn-primary">
-              Book a Test Drive
-            </a>
-
-            <a href="#features" class="btn btn-secondary">
-              Explore EV
-            </a>
-          </div>
-        </div>
-
-        <div class="car-card">
-          <div class="car-glow"></div>
-          <div class="car">
-            <div class="car-roof"></div>
-            <div class="car-window"></div>
-            <div class="car-body"></div>
-            <div class="wheel wheel-left"></div>
-            <div class="wheel wheel-right"></div>
-            <div class="headlight"></div>
-          </div>
-
-          <div class="range-badge">
-            <strong>520 km</strong>
-            <span>Estimated Range</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
-    <!-- Features -->
-    <section class="features section" id="features">
-      <div class="container">
-
-        <div class="section-heading">
-          <p class="eyebrow">WHY ECODRIVE</p>
-          <h2>Technology that moves you.</h2>
-          <p>
-            Everything you need for a smarter and cleaner driving experience.
-          </p>
-        </div>
-
-        <div class="feature-grid">
-
-          <article class="feature-card">
-            <div class="feature-icon">⚡</div>
-            <h3>Instant Performance</h3>
-            <p>
-              Electric power delivers instant torque and smooth acceleration
-              whenever you need it.
-            </p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-icon">🔋</div>
-            <h3>Long Range</h3>
-            <p>
-              Travel up to 520 km on a single charge and spend less time
-              worrying about your next charging stop.
-            </p>
-          </article>
-
-          <article class="feature-card">
-            <div class="feature-icon">🌱</div>
-            <h3>Built for Tomorrow</h3>
-            <p>
-              Efficient electric technology helps reduce emissions while
-              delivering a comfortable everyday drive.
-            </p>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Charging Section -->
-    <section class="charging section" id="charging">
-      <div class="container charging-container">
-
-        <div class="charging-visual">
-          <div class="charging-circle">
-            <span class="charging-icon">⚡</span>
-            <strong>80%</strong>
-            <small>in 30 min</small>
-          </div>
-        </div>
-
-        <div class="charging-content">
-          <p class="eyebrow">CHARGE & GO</p>
-
-          <h2>More time driving.<br>Less time charging.</h2>
-
-          <p>
-            EcoDrive EV supports fast charging for convenient long-distance
-            travel. Plug in, take a break and get back on the road.
-          </p>
-
-          <div class="charging-stats">
-            <div>
-              <strong>520 km</strong>
-              <span>Max range</span>
+            <div class="cyber-label">
+                NEXT-GENERATION ELECTRIC MOBILITY
             </div>
 
-            <div>
-              <strong>30 min</strong>
-              <span>Fast charge</span>
+            <h1>
+                Drive the
+                <span>Future.</span>
+            </h1>
+
+            <p class="hero-text">
+                EcoDrive EV combines intelligent electric performance,
+                connected technology and futuristic design to create
+                a smarter driving experience.
+            </p>
+
+            <div class="hero-actions">
+
+                <a href="features.html"
+                   class="cyber-button primary-button">
+                    Explore Features
+                </a>
+
+                <a href="contact.html#test-drive"
+                   class="cyber-button secondary-button">
+                    Book Test Drive
+                </a>
+
             </div>
 
-            <div>
-              <strong>11 kW</strong>
-              <span>Home charging</span>
+            <div class="hero-stats">
+
+                <div class="stat">
+                    <strong>520</strong>
+                    <span>KM RANGE</span>
+                </div>
+
+                <div class="stat">
+                    <strong>30</strong>
+                    <span>MIN FAST CHARGE</span>
+                </div>
+
+                <div class="stat">
+                    <strong>11</strong>
+                    <span>kW HOME CHARGE</span>
+                </div>
+
             </div>
-          </div>
+
         </div>
 
-      </div>
-    </section>
+
+        <!-- Futuristic EV -->
+        <div class="ev-visual reveal">
+
+            <div class="city-grid"></div>
+
+            <div class="energy-ring ring-one"></div>
+            <div class="energy-ring ring-two"></div>
+            <div class="energy-ring ring-three"></div>
+
+            <div class="ev-car">
+
+                <div class="ev-roof"></div>
+
+                <div class="ev-window window-one"></div>
+                <div class="ev-window window-two"></div>
+
+                <div class="ev-body">
+
+                    <div class="ev-light"></div>
+
+                    <div class="ev-front-line"></div>
+
+                </div>
+
+                <div class="ev-wheel wheel-one"></div>
+                <div class="ev-wheel wheel-two"></div>
+
+            </div>
+
+            <div class="range-panel">
+                <span>RANGE</span>
+                <strong>520 KM</strong>
+                <small>SMART ENERGY MODE</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
-    <!-- Test Drive CTA -->
-    <section class="test-drive section" id="test-drive">
-      <div class="container test-drive-box">
+<!-- ================= WHY ECODRIVE ================= -->
+
+<section class="section cyber-section"
+         id="why-ecodrive">
+
+    <div class="section-heading reveal">
+
+        <div class="cyber-label">
+            WHY ECODRIVE
+        </div>
+
+        <h2>
+            Intelligence meets
+            <span>electric mobility.</span>
+        </h2>
+
+        <p>
+            Designed as an educational demonstration of how
+            electric vehicles, connectivity and smart-city systems
+            can work together.
+        </p>
+
+    </div>
+
+
+    <div class="glass-grid">
+
+        <article class="glass-card reveal">
+
+            <div class="card-icon">⚡</div>
+
+            <h3>Electric Performance</h3>
+
+            <p>
+                Instant torque, smooth acceleration and efficient
+                energy use create a responsive EV driving experience.
+            </p>
+
+        </article>
+
+
+        <article class="glass-card reveal">
+
+            <div class="card-icon">◉</div>
+
+            <h3>Connected Intelligence</h3>
+
+            <p>
+                Smart dashboards and connected systems help drivers
+                monitor vehicle information and energy consumption.
+            </p>
+
+        </article>
+
+
+        <article class="glass-card reveal">
+
+            <div class="card-icon">⌁</div>
+
+            <h3>Future Mobility</h3>
+
+            <p>
+                EcoDrive explores the relationship between EVs,
+                charging networks and intelligent urban infrastructure.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SMART CITY ================= -->
+
+<section class="smart-city-section">
+
+    <div class="smart-city-content reveal">
+
+        <div class="cyber-label">
+            SMART CITY / EV ECOSYSTEM
+        </div>
+
+        <h2>
+            A vehicle designed
+            for a <span>connected world.</span>
+        </h2>
+
+        <p>
+            EcoDrive is imagined as part of a future mobility
+            ecosystem where electric vehicles interact with
+            charging stations, smart roads, connected buildings
+            and digital services.
+        </p>
+
+        <a href="features.html#smart-tech"
+           class="cyber-button primary-button">
+            Discover Smart Technology
+        </a>
+
+    </div>
+
+    <div class="city-animation">
+
+        <div class="city-building building-one"></div>
+        <div class="city-building building-two"></div>
+        <div class="city-building building-three"></div>
+        <div class="city-building building-four"></div>
+
+        <div class="road-line"></div>
+
+        <div class="city-car">
+            ⚡
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
 
         <div>
-          <p class="eyebrow">YOUR JOURNEY STARTS HERE</p>
-          <h2>Experience EcoDrive EV.</h2>
-          <p>
-            Get behind the wheel and discover electric driving for yourself.
-          </p>
+
+            <a href="index.html" class="brand">
+                <span class="brand-icon">⚡</span>
+                Eco<span>Drive</span>
+            </a>
+
+            <p>
+                Electric mobility for a smarter tomorrow.
+            </p>
+
         </div>
 
-        <button class="btn btn-light" id="testDriveBtn">
-          Book a Test Drive
-        </button>
 
-      </div>
-    </section>
+        <div class="footer-links">
 
-  </main>
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="charging.html">Charging</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
 
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer-container">
+        <div class="footer-note">
 
-      <div>
-        <a href="#" class="logo">Eco<span>Drive</span></a>
-        <p>Electric mobility for a better tomorrow.</p>
-      </div>
+            <span>FICTIONAL EDUCATIONAL CONCEPT</span>
 
-      <div class="footer-links">
-        <a href="#home">Home</a>
-        <a href="#features">Features</a>
-        <a href="#charging">Charging</a>
-        <a href="#test-drive">Test Drive</a>
-      </div>
+            <small>
+                © 2026 EcoDrive EV
+            </small>
 
-      <p class="copyright">
-        © 2026 EcoDrive EV. Fictional concept website.
-      </p>
+        </div>
 
     </div>
-  </footer>
+
+</footer>
 
 
-  <!-- Test Drive Modal -->
-  <div class="modal" id="testDriveModal">
-    <div class="modal-content">
+<!-- ================= CHATBOT ================= -->
 
-      <button class="modal-close" id="modalClose" aria-label="Close">
-        ×
-      </button>
+<div class="chatbot" id="chatbot">
 
-      <p class="eyebrow">ECODRIVE EV</p>
-      <h2>Book a Test Drive</h2>
+    <div class="chat-header">
 
-      <form id="testDriveForm">
+        <div>
+            <strong>EcoDrive Agent</strong>
+            <span class="online-dot"></span>
+            <small>Online</small>
+        </div>
 
-        <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Your name" required>
-
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="you@example.com" required>
-
-        <label for="date">Preferred Date</label>
-        <input type="date" id="date" required>
-
-        <button type="submit" class="btn btn-primary">
-          Submit Request
+        <button id="closeChat"
+                aria-label="Close chatbot">
+            ×
         </button>
 
-      </form>
+    </div>
 
-      <p id="formMessage" class="form-message"></p>
+
+    <div class="chat-messages"
+         id="chatMessages">
+
+        <div class="bot-message">
+            Welcome to EcoDrive Agent Support!
+            How may I help you?
+        </div>
 
     </div>
-  </div>
 
 
-  <script src="script.js"></script>
+    <div class="quick-actions">
+
+        <button data-question="Tell me about EcoDrive">
+            EcoDrive
+        </button>
+
+        <button data-question="What are the features?">
+            Features
+        </button>
+
+        <button data-question="Tell me about charging">
+            Charging
+        </button>
+
+        <button data-question="How can I book a test drive?">
+            Test Drive
+        </button>
+
+    </div>
+
+
+    <form class="chat-form" id="chatForm">
+
+        <input type="text"
+               id="chatInput"
+               placeholder="Ask EcoDrive Agent..."
+               autocomplete="off"
+               required>
+
+        <button type="submit">
+            ➤
+        </button>
+
+    </form>
+
+</div>
+
+
+<button class="chat-launcher"
+        id="chatLauncher"
+        aria-label="Open EcoDrive Agent">
+    <span>⚡</span>
+    <small>Agent</small>
+</button>
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
